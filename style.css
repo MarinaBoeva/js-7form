@@ -1,0 +1,66 @@
+body{
+  background-image: url(img/wpt2.jpg);
+
+}
+.form__wrapp{
+  margin-left: 35%;
+  margin-top:6%;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 10px;
+}
+.form{
+  display: block;
+  height: 350px;
+  width: 400px;
+  background-color: rgba(131, 139, 131, 0.4);
+  border-radius: 10px;
+  padding-top: 50px;
+  font-family: Arial;
+}
+
+.form__help{
+  width: 100px;
+  font-size: 11px;
+  background-color: #838B83;
+  color:#fff;
+  border-radius: 2px;
+  display: none;
+}
+.form__description{
+  display: inline-block;
+  margin-left: 40px;
+  margin-right:  5px;
+  width: 70px;
+  font-size: 15px;
+  color:#F0FFF0;
+}
+.form__element{
+  display:inline-block;
+  width: 150px;
+  margin-right: 20px;
+  height: 25px;
+  vertical-align: text-bottom;
+  border: 0.5px solid #959f95;
+  border-radius: 5px;
+}
+.button{
+  display: block;
+  height: 30px;
+  width: 120px;
+  margin: 30px 130px;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  background-color: #838B83;
+  color:#fff;
+  border-radius: 3px;
+}
+.button:hover{
+  background-image:linear-gradient(to top, #737B73 0%,#838B83 50%, #838B83 100%);;
+}
